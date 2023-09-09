@@ -5,7 +5,7 @@
     navItems[i].addEventListener("click", function() {      
       if (this.classList.contains('active')) {
         this.classList.remove('active');
-        return;
+        return (false);
       }
       desativated();
       this.className = "active";      
